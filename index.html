@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matrix-style-particles</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <canvas id="particleCanvas"></canvas>
+    
+    <div id="settings-panel">
+        <div class="control-group">
+            <label for="particle-slider">Partículas</label>
+            <input type="range" id="particle-slider" min="0" max="2000" value="100">
+            <span id="particle-value">100</span>
+        </div>
+        <div class="control-group">
+            <label for="distance-slider">Distancia Conexión</label>
+            <input type="range" id="distance-slider" min="0" max="2000" value="100">
+            <span id="distance-value">100</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
